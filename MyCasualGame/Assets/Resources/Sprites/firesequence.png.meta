@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: fef29f0bf6b4c9b4b9f8e51f68379c82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7864818975058755783
+    second: firesequence_0
+  - first:
+      213: -8102104695965606359
+    second: firesequence_1
+  - first:
+      213: -8396168514908421019
+    second: firesequence_2
+  - first:
+      213: 8985558220863902942
+    second: firesequence_3
+  - first:
+      213: 2316014055908928717
+    second: firesequence_4
+  - first:
+      213: 788219262577970082
+    second: firesequence_5
+  - first:
+      213: 4215106784572642421
+    second: firesequence_6
+  - first:
+      213: 5169114434205398135
+    second: firesequence_7
+  - first:
+      213: -6509033001551341688
+    second: firesequence_8
+  - first:
+      213: -5084397079132414195
+    second: firesequence_9
+  - first:
+      213: -5695036971978403405
+    second: firesequence_10
+  - first:
+      213: 7322457938472847071
+    second: firesequence_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firesequence_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1794.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0012f2033752d60800000000000000
+      internalID: 7864818975058755783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_1
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1794.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e12ffa4ba8f8f80800000000000000
+      internalID: -8102104695965606359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_2
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1794.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56480927831da7b80800000000000000
+      internalID: -8396168514908421019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_3
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1794.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41f27289d13bc70800000000000000
+      internalID: 8985558220863902942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc63495382242020800000000000000
+      internalID: 2316014055908928717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_5
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 897.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab841f3e3150fa00800000000000000
+      internalID: 788219262577970082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_6
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 897.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5749ac8b9411f7a30800000000000000
+      internalID: 4215106784572642421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_7
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 897.6667
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7743826d0326cb740800000000000000
+      internalID: 5169114434205398135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.666687
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887dc3fa8f44ba5a0800000000000000
+      internalID: -6509033001551341688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_9
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 0.666687
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f57497bc79079b0800000000000000
+      internalID: -5084397079132414195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_10
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 0.666687
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d28e2c0a27f0b0800000000000000
+      internalID: -5695036971978403405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firesequence_11
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 0.666687
+        width: 621.25
+        height: 897.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6c961f2b89e9560800000000000000
+      internalID: 7322457938472847071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 527c2573bbce994419496ce2456c5879
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
