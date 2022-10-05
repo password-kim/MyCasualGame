@@ -28,8 +28,8 @@ public class SpriteAnimator : MonoBehaviour
         _renderer = GetComponent<SpriteRenderer>();
         if (string.IsNullOrEmpty(spriteSheetName))
         {
-            _sprites = new Sprite[spriteSheetName.Length];
-            for(int i = 0; i < spriteSheetName.Length; i++)
+            _sprites = new Sprite[spriteNames.Length];
+            for(int i = 0; i < spriteNames.Length; i++)
             {
                 _sprites[i] = Resources.Load<Sprite>(SpriteRootFolderName + spriteNames[i]);
             }
