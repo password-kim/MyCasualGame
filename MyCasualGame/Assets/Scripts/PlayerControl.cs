@@ -10,11 +10,17 @@ public class PlayerControl : MonoBehaviour
 
     private SpriteRenderer myRenderer = null;
 
+    private ProjectileShooter shooter = null;
+
     // Start is called before the first frame update
     void Start()
     {
         myTransform = GetComponent<Transform>();
         myRenderer = GetComponent<SpriteRenderer>();
+
+        // projectile shooter
+        shooter = GetComponent<ProjectileShooter>();
+        shooter.ShootProjectile(ProjectileShooter.ProjectileType.Bullet, 5f, 10f, false, 1.0f);
     }
 
     // Update is called once per frame
