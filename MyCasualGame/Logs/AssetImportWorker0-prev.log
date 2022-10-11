@@ -15,11 +15,11 @@ C:/PasswordKim/MyCasualGame/MyCasualGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9609
+6075
 Successfully changed project path to: C:/PasswordKim/MyCasualGame/MyCasualGame
 C:/PasswordKim/MyCasualGame/MyCasualGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007686 seconds.
+Registered in 0.010924 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  2.324 seconds
 Domain Reload Profiling:
-	ReloadAssembly (714ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (2324ms)
+		BeginReloadAssembly (1521ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (494ms)
-			LoadAssemblies (109ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (1515ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007053 seconds.
+Registered in 0.009917 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
+- Completed reload, in  1.586 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1244ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (1587ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (932ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1231ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (393ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (24ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 74.0 MB.
-System memory in use after: 74.0 MB.
+System memory in use after: 74.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1993.
-Total: 2.820300 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.520400 ms  DeleteObjects: 0.079600 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 4.526600 ms (FindLiveObjects: 0.136600 ms CreateObjectMapping: 0.065800 ms MarkObjects: 4.171200 ms  DeleteObjects: 0.151400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,1846 +134,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2D_Pixel_Effects_pack/Scenes/Particles.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Scenes/Particles.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cba3c25f19fe01c9590b0c4cb7c22db') in 0.005119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.208211 seconds.
-  path: Assets/Scenes/CasualGame.unity
-  artifactKey: Guid(7308b7dc5b987bc4aa43f60e0eca7fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CasualGame.unity using Guid(7308b7dc5b987bc4aa43f60e0eca7fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28c7cb55991caadefd11c9390e04dde') in 0.004818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.847900 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam1.png
-  artifactKey: Guid(0125ab3c831537743ab90b76985dade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam1.png using Guid(0125ab3c831537743ab90b76985dade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87301095e3a26f9e391b5a211b4fee3e') in 0.160676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane7.png
-  artifactKey: Guid(b5f5d91185fba6849b4c2e0c98b5de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane7.png using Guid(b5f5d91185fba6849b4c2e0c98b5de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e95562bf9ed80fac452722e40e512d') in 0.031334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast2.png
-  artifactKey: Guid(b4ed69bca7a5bbf439821e751667f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast2.png using Guid(b4ed69bca7a5bbf439821e751667f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0855b9e483ea3c6f15c6b01fa2047a1a') in 0.011194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny5.png
-  artifactKey: Guid(b448a67de37ea02409c83f639cf4bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny5.png using Guid(b448a67de37ea02409c83f639cf4bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a19ddce25706bc8ab049f229e51672') in 0.013607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost3.png
-  artifactKey: Guid(421b1e6d00bc57542b9a15edbf1eb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost3.png using Guid(421b1e6d00bc57542b9a15edbf1eb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55f4352244c53d7c1e02bb22f0a8387') in 0.014381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood2.png
-  artifactKey: Guid(e21774ff5f582fe41b8a86a120a79cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood2.png using Guid(e21774ff5f582fe41b8a86a120a79cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fe6cf0d7ef988d0d0474415023116b') in 0.013442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood3.png
-  artifactKey: Guid(81aacf035c1083f479cb77d04d4d13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood3.png using Guid(81aacf035c1083f479cb77d04d4d13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f89b8cef379147c565b7afedeabe7c') in 0.011152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood4.png
-  artifactKey: Guid(7195d18b925715a4ab6473cbfe38ee02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood4.png using Guid(7195d18b925715a4ab6473cbfe38ee02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af703550dd711a41c9800a67ace2cf70') in 0.011235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit5.png
-  artifactKey: Guid(0fd553344506be946948f80ea5af9a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit5.png using Guid(0fd553344506be946948f80ea5af9a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b29b7b038d2b2b0e4039f6ddb0f151') in 0.010552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood6.png
-  artifactKey: Guid(141dec44b5728f74f968c55d702f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood6.png using Guid(141dec44b5728f74f968c55d702f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93587382f893f2ea3c82112f0a38e69') in 0.013012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_6.png
-  artifactKey: Guid(b4a9d91df5ad35841bbc7a2eca3fa0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_6.png using Guid(b4a9d91df5ad35841bbc7a2eca3fa0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2595b99884a6b599c91cb8f35c86b089') in 0.011318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam2.png
-  artifactKey: Guid(06ead01ad59feb249acda1e3b2bd4474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam2.png using Guid(06ead01ad59feb249acda1e3b2bd4474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471051e8f745333be684aa7bc41fdcde') in 0.013009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen2.png
-  artifactKey: Guid(f1bb843bcb5f2c84f8929b096c6a94e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen2.png using Guid(f1bb843bcb5f2c84f8929b096c6a94e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e05c5ea658393bd0ea1d14feacfae') in 0.009967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast1.png
-  artifactKey: Guid(ee8fdd34dc3f10e459ea2fc4b2245d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast1.png using Guid(ee8fdd34dc3f10e459ea2fc4b2245d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e13ce955e0b1581c5de3be392e53d30') in 0.011678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane2.png
-  artifactKey: Guid(99fcf806e098dea41b11bdfc3826b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane2.png using Guid(99fcf806e098dea41b11bdfc3826b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba43b589924befd2881110321cec4c0') in 0.010150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen1.png
-  artifactKey: Guid(03891276eabf72c4390431cbc185b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen1.png using Guid(03891276eabf72c4390431cbc185b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8426877f4d0ba7911593471b0896fc7c') in 0.010217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit3.png
-  artifactKey: Guid(8fa7062e1e5492f4b88e84e8d5c7d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit3.png using Guid(8fa7062e1e5492f4b88e84e8d5c7d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfae25d0239370c07ce8d6d27824004a') in 0.012996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/_kul_jewel1.png
-  artifactKey: Guid(148676dc9108b5841a9558806fcfaadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/_kul_jewel1.png using Guid(148676dc9108b5841a9558806fcfaadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f378cf063fce5bb0680a1ea23638cbf') in 0.012321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane4.png
-  artifactKey: Guid(791ab91dac3ec484497b3553c9c312e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane4.png using Guid(791ab91dac3ec484497b3553c9c312e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc7d10b7781ba725c0912becccbe1d2') in 0.011438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny4.png
-  artifactKey: Guid(b42f7bd7d398d76479a394c139a3a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny4.png using Guid(b42f7bd7d398d76479a394c139a3a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18ebf87f24e1b190dd4601c6aba1138') in 0.012856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit7.png
-  artifactKey: Guid(f58d2c05c6623c540ad3eaefcfa3e71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit7.png using Guid(f58d2c05c6623c540ad3eaefcfa3e71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac856274301edcafc14f4ed49ac29f6') in 0.011050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood7.png
-  artifactKey: Guid(00047b0039fc1344ea0c01dcd5e958e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood7.png using Guid(00047b0039fc1344ea0c01dcd5e958e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bfcc54291d08ce016b44d217b72ae5') in 0.011738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast5.png
-  artifactKey: Guid(3c4d70d2e9e25884fabc0c7b3145dbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast5.png using Guid(3c4d70d2e9e25884fabc0c7b3145dbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67dfe33452ca829428044493b377203') in 0.010093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_3.png
-  artifactKey: Guid(0e497e022768fc741af983227545c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_3.png using Guid(0e497e022768fc741af983227545c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22aa7b809bec4656bf92ab55c08ea83') in 0.010757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_2.png
-  artifactKey: Guid(d7ca2814b575deb49bd6d1e23c46818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_2.png using Guid(d7ca2814b575deb49bd6d1e23c46818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804ee02e70ccdfe2faa79c865cc25497') in 0.010030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam4.png
-  artifactKey: Guid(9cdf0cf2b77ea2b45b00aef8b8fe1d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam4.png using Guid(9cdf0cf2b77ea2b45b00aef8b8fe1d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d2ba345171bed0f789b8a5e4b31385') in 0.010793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_4.png
-  artifactKey: Guid(979643645f03662408f68bf6e5a991bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_4.png using Guid(979643645f03662408f68bf6e5a991bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe1c3a0b5e0d2126f3b4f2e207cdac8') in 0.010640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_7.png
-  artifactKey: Guid(b2561f9e0fece3f46a1c98113154919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_7.png using Guid(b2561f9e0fece3f46a1c98113154919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ec25f493c709d9fa337ccc026f1099') in 0.011282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit1.png
-  artifactKey: Guid(3a72a1ea6b8bc29409401f543e998caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit1.png using Guid(3a72a1ea6b8bc29409401f543e998caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f8142af55014f0c71fc998fd6edc1d') in 0.009995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane5.png
-  artifactKey: Guid(4382607b450018c40b7018239c6fd489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane5.png using Guid(4382607b450018c40b7018239c6fd489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbacc23924e88d5e417dce4809c21d93') in 0.010318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit4.png
-  artifactKey: Guid(352eddea2161f6a47979f5f20ae7c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit4.png using Guid(352eddea2161f6a47979f5f20ae7c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5236a82f4df035289d03e5e8ad6c9354') in 0.009957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_4.png
-  artifactKey: Guid(040137e73b55caf4292d0c2d2841c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_4.png using Guid(040137e73b55caf4292d0c2d2841c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce4b9ed6509d7031fa9c349e9dbf915') in 0.011618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_3.png
-  artifactKey: Guid(898d912cf2f7d5a4697d293a94ed5085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_3.png using Guid(898d912cf2f7d5a4697d293a94ed5085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830d00737d25863928969c4b61f77bc') in 0.012910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane3.png
-  artifactKey: Guid(fdbe23d99843813468a69af952316a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane3.png using Guid(fdbe23d99843813468a69af952316a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a5566be895d94b683edea8899b7742') in 0.010752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast9.png
-  artifactKey: Guid(ce7d474456f33fb4c8b133f0a4a6f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast9.png using Guid(ce7d474456f33fb4c8b133f0a4a6f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bd512eaf16ab62145066b7277b3d66') in 0.011284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane1.png
-  artifactKey: Guid(7ae2cfa5ba96b944aa0f74aa01044df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane1.png using Guid(7ae2cfa5ba96b944aa0f74aa01044df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac40082111a6a69ad3f8e68555d46c8') in 0.010727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_1.png
-  artifactKey: Guid(75d956c4fe42c804082c2da029d53a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_1.png using Guid(75d956c4fe42c804082c2da029d53a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9a790cf70046747711fec8b13bff39') in 0.010870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_1.png
-  artifactKey: Guid(35ff61f9c09eec040ac81fcc9fbfc6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_1.png using Guid(35ff61f9c09eec040ac81fcc9fbfc6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfc8813b3130a587e7953f7a37f0ec7') in 0.010077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam3.png
-  artifactKey: Guid(4bcb8e23d0dec4c4ab303fcc7279a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/LaserMissile/_aserBeam3.png using Guid(4bcb8e23d0dec4c4ab303fcc7279a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87350994b526403c27eb9dd0f89b4933') in 0.010871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny2.gif
-  artifactKey: Guid(d2810f035788ace4dadfa774f9783baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny2.gif using Guid(d2810f035788ace4dadfa774f9783baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5209d09ff9291f266aba15a837dafe17') in 0.018781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast7.png
-  artifactKey: Guid(4306029c5ac5cfb4188f38b7fd88d440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast7.png using Guid(4306029c5ac5cfb4188f38b7fd88d440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348fd5e6ec344122c3728e9ba12f0150') in 0.010425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost1.png
-  artifactKey: Guid(7060ca41060b09245865695fdd80104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost1.png using Guid(7060ca41060b09245865695fdd80104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b8bb98bb389db76396e7eef32cb920') in 0.012779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood1.png
-  artifactKey: Guid(14bbe42895277f848a3f5ac0b2115f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood1.png using Guid(14bbe42895277f848a3f5ac0b2115f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce68428ce58dac61098d2898fecc9ab') in 0.011132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit8.png
-  artifactKey: Guid(4abdd75b3d225a748b27c06225c5babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit8.png using Guid(4abdd75b3d225a748b27c06225c5babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bd8d95c8633eeaec755b1a7d31f125') in 0.012894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_8.png
-  artifactKey: Guid(6fab6d9fe3177e440b4018a04533dde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_8.png using Guid(6fab6d9fe3177e440b4018a04533dde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658978fb7963eb2b35d5952637cd802d') in 0.010729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen4.png
-  artifactKey: Guid(2496936e65a79494098e9c9839562d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen4.png using Guid(2496936e65a79494098e9c9839562d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a445db8d43680e44a95ba82854a2ea') in 0.010068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_1.png
-  artifactKey: Guid(f6245876dd3bcb841b6b0b66c7e10a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_1.png using Guid(f6245876dd3bcb841b6b0b66c7e10a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656bfd2d1bf0e8e484dee7c61bc7f668') in 0.010822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny6.png
-  artifactKey: Guid(5ebfa5361d2d3d848925398d15912768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny6.png using Guid(5ebfa5361d2d3d848925398d15912768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfefa3db2db330f22bc04e93e5d1c32') in 0.010013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost2.png
-  artifactKey: Guid(8d95214a14ededf41ae104cdbb7cd21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost2.png using Guid(8d95214a14ededf41ae104cdbb7cd21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ae2aa76091bf5c77601f02c00e4db') in 0.012052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast3.png
-  artifactKey: Guid(96725126891f6964ab366f841e20bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast3.png using Guid(96725126891f6964ab366f841e20bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee29f138702c26cab163d335029aeb7') in 0.009883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_8.png
-  artifactKey: Guid(ca6ad127b7ff0be44951595d45ce0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_8.png using Guid(ca6ad127b7ff0be44951595d45ce0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6637e0436e38e247911f4486d644dc1') in 0.012610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast6.png
-  artifactKey: Guid(24a4262ff93b00247b8835e6ec0eeb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast6.png using Guid(24a4262ff93b00247b8835e6ec0eeb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e76ad30207f4a9b4c9932dfb965991a') in 0.011213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen3.png
-  artifactKey: Guid(cefd18034464bed479a9bc35f5e36fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Adogen/_dogen3.png using Guid(cefd18034464bed479a9bc35f5e36fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60645e14b221dd02d847449a408dc9af') in 0.012353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane9.png
-  artifactKey: Guid(21e90e0fc94c1d645990bf2607632aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane9.png using Guid(21e90e0fc94c1d645990bf2607632aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a34877cf2df77ce2fa1d7f48c6ab75') in 0.011771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny2.png
-  artifactKey: Guid(469c3b5f5b2d8cc4baea3926bf5a590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny2.png using Guid(469c3b5f5b2d8cc4baea3926bf5a590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ce0b396018ccb0f1b4c2f47dde51a0') in 0.010665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit6.png
-  artifactKey: Guid(55ca4390c5080a04a955eb804439c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit6.png using Guid(55ca4390c5080a04a955eb804439c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f29b5cd0b80c5035ae9f1bff7471ed') in 0.010399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_2.png
-  artifactKey: Guid(031e349d3cdb372459fe39b16b583105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_2.png using Guid(031e349d3cdb372459fe39b16b583105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf0ce4e6fef122d6aee0fe04516be92') in 0.010362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_5.png
-  artifactKey: Guid(676beb3c10339cc458c20368b74aa6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_5.png using Guid(676beb3c10339cc458c20368b74aa6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346d282681c63a8aa5d1ac20395f4b70') in 0.011213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/_kul_jewel2.png
-  artifactKey: Guid(7589627b935088f418708fd338826c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/_kul_jewel2.png using Guid(7589627b935088f418708fd338826c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f568fdccb47481438da2e5289c9bda7') in 0.011172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost4.png
-  artifactKey: Guid(986abb1cffcc8ce42ae515f3e61c7e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_Ghost/_kullGhost4.png using Guid(986abb1cffcc8ce42ae515f3e61c7e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebecf3b31dc1fbeeb133b2e740ae298f') in 0.011257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Blood/_loood5.png
-  artifactKey: Guid(7956f2c200f1b394fb82e70cbf40214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Blood/_loood5.png using Guid(7956f2c200f1b394fb82e70cbf40214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3605fa63da57bee5a673393e3dabcb') in 0.010285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_5.png
-  artifactKey: Guid(ee00c852e70dc744588ff4cf65b5631e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_5.png using Guid(ee00c852e70dc744588ff4cf65b5631e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca84358f613947305133b6491daaac5') in 0.010832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_7.png
-  artifactKey: Guid(eca4bcbbececeac48aca0799b4a6955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_7.png using Guid(eca4bcbbececeac48aca0799b4a6955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55494388ff583ac1e98d4182416540ca') in 0.009774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_5.png
-  artifactKey: Guid(c7b86c12d005c2849a182ba8906232dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Bat_magic/_at_5.png using Guid(c7b86c12d005c2849a182ba8906232dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf483aa4338963d4e8059705f555dda') in 0.009931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit9.png
-  artifactKey: Guid(95ceaf956a1eded45a0fe37058904e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit9.png using Guid(95ceaf956a1eded45a0fe37058904e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d65cb68a58d66750ef79791817cf0d') in 0.012568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast4.png
-  artifactKey: Guid(9f1ea0e74bfd46040bb45e7eeddd2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast4.png using Guid(9f1ea0e74bfd46040bb45e7eeddd2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45eb5ece104b25176daaddaf7a5a3600') in 0.010715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_4.png
-  artifactKey: Guid(9a3301aa58ef1c542bbc3dd60d8d0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_4.png using Guid(9a3301aa58ef1c542bbc3dd60d8d0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c53aa0354b757ac4f8b21d010b1142f') in 0.013702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_6.png
-  artifactKey: Guid(b01532321856b124083a9499029dd0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_6.png using Guid(b01532321856b124083a9499029dd0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09b39bb5b29441ffcf95021f4f21cb') in 0.011946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_3.png
-  artifactKey: Guid(241e3d6536f44a141bd24d2a68ff3be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_3.png using Guid(241e3d6536f44a141bd24d2a68ff3be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf17c28e0c8796ea7fbd32f3adbb415') in 0.012587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane6.png
-  artifactKey: Guid(1678927dd152b424e98cc508b3431b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane6.png using Guid(1678927dd152b424e98cc508b3431b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427991b50f48e6385eae0fa63fc9b9c7') in 0.010842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Airplane/_irplane8.png
-  artifactKey: Guid(439bc87b47a96d34eb9ed727b0016491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Airplane/_irplane8.png using Guid(439bc87b47a96d34eb9ed727b0016491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74657aeac639bcbc06346b865f5a13d6') in 0.011995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_6.png
-  artifactKey: Guid(42b9c0047644c8445b78725bdbd3965e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_1/_ire_6.png using Guid(42b9c0047644c8445b78725bdbd3965e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e898d5b33c76b408a54425d4e90986f3') in 0.010988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit2.png
-  artifactKey: Guid(21ff3d5dfb13046479df841829f5453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_fairy/_ire_Sprit2.png using Guid(21ff3d5dfb13046479df841829f5453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523a7336463b1685ae5963cbc98e5e65') in 0.010609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny1.png
-  artifactKey: Guid(24a3f61c0a0865843ba463b9139a09b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny1.png using Guid(24a3f61c0a0865843ba463b9139a09b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2a4b4a60fadd038845d549bb8d85f5') in 0.011796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny3.png
-  artifactKey: Guid(91bacc9d39607764d9bb9fd705e4ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Shiny_/_hiny3.png using Guid(91bacc9d39607764d9bb9fd705e4ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858e1cec67bf3e053a6bcaa7dc3819df') in 0.010293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast8.png
-  artifactKey: Guid(7d255721d9b3c64428d492a04d2ecca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/_ire_Blast8.png using Guid(7d255721d9b3c64428d492a04d2ecca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568d475cacdcddf24896ff9d382d0db8') in 0.012082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_2.png
-  artifactKey: Guid(d3484fe63316e6e40ab8a9b7642d7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_2/_ire_2.png using Guid(d3484fe63316e6e40ab8a9b7642d7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8370e9bb081a32cec0c7608d34940c') in 0.010351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.036752 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_ock.png
-  artifactKey: Guid(50332c38801d82942aae65085a6c8ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_ock.png using Guid(50332c38801d82942aae65085a6c8ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c4c6d838844dfe61caa61c1c6d22b') in 0.011869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0002.png
-  artifactKey: Guid(1afb07fe33818564e907694f6c0c8ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0002.png using Guid(1afb07fe33818564e907694f6c0c8ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75caf49d5f9d5aac76c235649f994b7d') in 0.016715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0001.png
-  artifactKey: Guid(98808310853f0b946929c7caf97f162d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0001.png using Guid(98808310853f0b946929c7caf97f162d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40830f5c0380cfd755bfcf1121ee17b9') in 0.011378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_Nova/_prite-0002.png
-  artifactKey: Guid(8bdeda6e1130f524697f37f293f6e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_Nova/_prite-0002.png using Guid(8bdeda6e1130f524697f37f293f6e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96d894b85f5d0ec0d148596d7c2c325') in 0.010854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0001.png
-  artifactKey: Guid(1ef6f06e81e2a794b91f3ea424aa023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0001.png using Guid(1ef6f06e81e2a794b91f3ea424aa023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549a45f69c403f01d38e80775f03fe5f') in 0.012292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0002.png
-  artifactKey: Guid(37f63493277cd37488f3593f35e5b857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0002.png using Guid(37f63493277cd37488f3593f35e5b857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465f7034611f37f513a82072ad3695ac') in 0.009901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0001.png
-  artifactKey: Guid(1f0bea8706504f048978a9bf08188652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0001.png using Guid(1f0bea8706504f048978a9bf08188652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfd0e589cdedafa2f37e91229626a22') in 0.011543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_Nova/_prite-0001.png
-  artifactKey: Guid(b3517b66eed519a42b251c370eccded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_Nova/_prite-0001.png using Guid(b3517b66eed519a42b251c370eccded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8154e3c8cb6504b84f8c3f9c34d46153') in 0.011619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0002.png
-  artifactKey: Guid(1b424d19f7ce7684ab678aee135a2663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0002.png using Guid(1b424d19f7ce7684ab678aee135a2663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b5c3ae57bde2e024186b0df8aae5b2') in 0.012006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0002.png
-  artifactKey: Guid(f0c3c211091a1f84b91d86c2b53d2237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0002.png using Guid(f0c3c211091a1f84b91d86c2b53d2237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78956178c3a8ab8edde0c472b24b9302') in 0.010283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0001.png
-  artifactKey: Guid(ebaedacdbd386754e924b2c0b0ea5236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0001.png using Guid(ebaedacdbd386754e924b2c0b0ea5236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11473a348b7f1a923bac7b34f7d79244') in 0.009795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054003 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0002.png
-  artifactKey: Guid(8fd90e69d8887234fae885f81c068b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0002.png using Guid(8fd90e69d8887234fae885f81c068b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b8ba5db0dc9c78b19638fed8369e17') in 0.011684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0004.png
-  artifactKey: Guid(ac7550ebe27cccf4e92fa3c97050cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0004.png using Guid(ac7550ebe27cccf4e92fa3c97050cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4825055b31c0f25caa80b1f087154881') in 0.011113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0003.png
-  artifactKey: Guid(e14f6de4daed8e043a8bc99ee6cd03dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0003.png using Guid(e14f6de4daed8e043a8bc99ee6cd03dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800f02e8b29d4ec165aa005f74842580') in 0.010343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0004.png
-  artifactKey: Guid(feb4fe33f0dc8ff48835a1aa7bed9e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0004.png using Guid(feb4fe33f0dc8ff48835a1aa7bed9e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0660d4cad1bba2c88b209c4cc3a79aaa') in 0.011646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0004.png
-  artifactKey: Guid(f34f57b2ec6658b4da680c9c0127620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0004.png using Guid(f34f57b2ec6658b4da680c9c0127620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5db9b9f08f7f505f9adc0229f66d8f3') in 0.011029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0003.png
-  artifactKey: Guid(78252c89f48b19e448f58f623fea1cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0003.png using Guid(78252c89f48b19e448f58f623fea1cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0508477cead797d8a549534128541b') in 0.011336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0003.png
-  artifactKey: Guid(da5949e2a4268e843a2faf799c4879a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0003.png using Guid(da5949e2a4268e843a2faf799c4879a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986ee98dfd55ff1948634823fc168f06') in 0.011008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Grren_line_missile/_prite-0004.png
-  artifactKey: Guid(e20308878e97505439a027eab6a68055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Grren_line_missile/_prite-0004.png using Guid(e20308878e97505439a027eab6a68055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f24614863403394366a19cf778af8c1') in 0.011111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0006.png
-  artifactKey: Guid(143fb54e45ce36d4c8f595295bf7c631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0006.png using Guid(143fb54e45ce36d4c8f595295bf7c631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59358d945577349e001fb4e01e51f99') in 0.009969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0003.png
-  artifactKey: Guid(e8d1fd11e79e08c4b8a68303e52174d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0003.png using Guid(e8d1fd11e79e08c4b8a68303e52174d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082136aa88d3e6948fbb108ce2b97e72') in 0.011507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FIre/Fire_Nova/_prite-0003.png
-  artifactKey: Guid(2c4e42c2e6135394391298ce0ce05c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FIre/Fire_Nova/_prite-0003.png using Guid(2c4e42c2e6135394391298ce0ce05c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c4d282e3e1ddb9f3d060bf8c3ca7bb') in 0.010861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0003.png
-  artifactKey: Guid(fc999b3f747b7bd45a87865df825b201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0003.png using Guid(fc999b3f747b7bd45a87865df825b201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e73db08c06676fbec591964bce27756') in 0.011353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0005.png
-  artifactKey: Guid(146bc44bedf61e14b81fbdd2a593266b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0005.png using Guid(146bc44bedf61e14b81fbdd2a593266b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a5d09b75c55ead1bd67bc04fcf1dcb') in 0.010285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0006.png
-  artifactKey: Guid(da3b742d6ba895442a984c85a802fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0006.png using Guid(da3b742d6ba895442a984c85a802fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ec146e2e7aab767c882c17b556b77e') in 0.009547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001411 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0004.png
-  artifactKey: Guid(62be4a470b8ae5341b9d32cfca61653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0004.png using Guid(62be4a470b8ae5341b9d32cfca61653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06cfeb21a3ec8b54f980e19e16b7490') in 0.010514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0005.png
-  artifactKey: Guid(ecd284256881fa045951667a8d4d4849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0005.png using Guid(ecd284256881fa045951667a8d4d4849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d55c8dcbb9cde3c5f300da91aaba24') in 0.011005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0004.png
-  artifactKey: Guid(cb63aecddf12dab47b64c7b7df437564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0004.png using Guid(cb63aecddf12dab47b64c7b7df437564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd676556ed6ef581c6293ce549781d7ce') in 0.012138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0005.png
-  artifactKey: Guid(d1193e15be5d1e64097d904e726411c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0005.png using Guid(d1193e15be5d1e64097d904e726411c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2b1cae802e739c8b93410aae5db868') in 0.011378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0006.png
-  artifactKey: Guid(b1caed5c37382974c9e31fb423c21a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0006.png using Guid(b1caed5c37382974c9e31fb423c21a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab66510ea1a5f31aeaf2bd924481b478') in 0.012061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Grren_line_missile/_prite-0003.png
-  artifactKey: Guid(52dd1c4493465a64f98fc6d223391a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Grren_line_missile/_prite-0003.png using Guid(52dd1c4493465a64f98fc6d223391a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55419a2f5a29aef8191cf49ae52b1d1e') in 0.010617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0005.png
-  artifactKey: Guid(db38ec8bf01f6d7498140bf166cfa624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0005.png using Guid(db38ec8bf01f6d7498140bf166cfa624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da484323e8bbeb74a8c34b5a0c335d2') in 0.010818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0005.png
-  artifactKey: Guid(691c1a838d059a243b11d9f32e0cf4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0005.png using Guid(691c1a838d059a243b11d9f32e0cf4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87395b428ee37b329877ec99bd7a3f2') in 0.009470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.218120 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0006.png
-  artifactKey: Guid(b1881baef98f17c40996ec0484b72a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_11/_prite-0006.png using Guid(b1881baef98f17c40996ec0484b72a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c97e9174b47d1269e419d5b08f6eba') in 0.011256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0008.png
-  artifactKey: Guid(610b72326844c7044b23b690ed673b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0008.png using Guid(610b72326844c7044b23b690ed673b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ad5e6cb41c34dc47c0fdca3ee94c60') in 0.009825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0015.png
-  artifactKey: Guid(1155188a2d4630c4c87a3df215719e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0015.png using Guid(1155188a2d4630c4c87a3df215719e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6176ef042cd7f9bbc5e5ed606877b6d7') in 0.014566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring2.png
-  artifactKey: Guid(71ab1e6963fa2404ebc4bbc67ed70309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring2.png using Guid(71ab1e6963fa2404ebc4bbc67ed70309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60c983cecad87d176396078e13e0d3f') in 0.010708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0020.png
-  artifactKey: Guid(c33820c22dfbbaf468b136f486f041ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0020.png using Guid(c33820c22dfbbaf468b136f486f041ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8cc50ba64f62c3646dfd3bb7a1998b') in 0.010671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0021.png
-  artifactKey: Guid(a3ac47433b348574099ac4d0a9655ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0021.png using Guid(a3ac47433b348574099ac4d0a9655ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85c35e177615c0ed45abfeb4d950c8a') in 0.011313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0019.png
-  artifactKey: Guid(deec8e41876c5c648a47ef287afb5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0019.png using Guid(deec8e41876c5c648a47ef287afb5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec97b2db87eee711839d85e075fe9c1') in 0.011944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0008.png
-  artifactKey: Guid(30555b5f31a434d4b83c44ef5c2a1ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0008.png using Guid(30555b5f31a434d4b83c44ef5c2a1ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4305d6e1dac5c27445cfcd7910ec36cd') in 0.010798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0012.png
-  artifactKey: Guid(49132fb43aca8d34682b34fb8558c181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0012.png using Guid(49132fb43aca8d34682b34fb8558c181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65561e4d60d18d76da010b5a74123dda') in 0.013520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring3.png
-  artifactKey: Guid(2f8e6260824cd5340b641cf310c9d05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring3.png using Guid(2f8e6260824cd5340b641cf310c9d05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa034475c9d9e7c79be3d1548198fdbf') in 0.012141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0016.png
-  artifactKey: Guid(3e8490c38263d334cb54fd73e9c321b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0016.png using Guid(3e8490c38263d334cb54fd73e9c321b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcafdf1c7c49d3658d6f2b859eb4522') in 0.012923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0007.png
-  artifactKey: Guid(e3a66978effdd564a9b550d2d8beb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_bubble/_prite-0007.png using Guid(e3a66978effdd564a9b550d2d8beb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dbcb96d6665057df8f8aa12c2f241a') in 0.010922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0018.png
-  artifactKey: Guid(2d6447af78b6f064daaa5e8a220bd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0018.png using Guid(2d6447af78b6f064daaa5e8a220bd507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5b4eb064987911992a0b9b84ddfc62') in 0.011413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0013.png
-  artifactKey: Guid(8d19b46be24ba1742a2222784c75bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0013.png using Guid(8d19b46be24ba1742a2222784c75bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea868760818e1cd4d7592081cd89ec75') in 0.010192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0007.png
-  artifactKey: Guid(cfe6d9ea5a223424980be91b4580b216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/Coin/_prite-0007.png using Guid(cfe6d9ea5a223424980be91b4580b216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e17a50b56877ebe605ffc4901fcaa2') in 0.009670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0009.png
-  artifactKey: Guid(894fc5d45ffef0d439fe1e6860daa7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0009.png using Guid(894fc5d45ffef0d439fe1e6860daa7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a8f8d32a0f92a40859d0ee621e0e75') in 0.018431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0007.png
-  artifactKey: Guid(6a0069ceed37e424bae776ecda59c601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_8/_prite-0007.png using Guid(6a0069ceed37e424bae776ecda59c601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee85ff6c292d149fed4c4a1305c27b22') in 0.009393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0017.png
-  artifactKey: Guid(ad9f77d8ee2d2804eab134b499621d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0017.png using Guid(ad9f77d8ee2d2804eab134b499621d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e05a60ac0efcf9ceb18cfa0ed64e588') in 0.011744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0006.png
-  artifactKey: Guid(4f8aa8cfc53a20f41879e0b7e5872204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0006.png using Guid(4f8aa8cfc53a20f41879e0b7e5872204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8a58dc1a4f535e35f766f079e16ff') in 0.010521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0007.png
-  artifactKey: Guid(4e6d68f18b43ee247ab4a370df52794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_6/_prite-0007.png using Guid(4e6d68f18b43ee247ab4a370df52794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65a3470e8538429bd703ee61315b18f') in 0.013402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0014.png
-  artifactKey: Guid(e18aa8a1a893fa94bb7371afa4fa357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Magics/Rock/_prite-0014.png using Guid(e18aa8a1a893fa94bb7371afa4fa357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af0f63977ead46180b75d2ce45a87a1') in 0.012523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring1.png
-  artifactKey: Guid(ced680914e3506d4eacec657c0b2e984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring1.png using Guid(ced680914e3506d4eacec657c0b2e984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15395ef62a4c8192ca08039c7e7646e5') in 0.011532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.370405 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring4.png
-  artifactKey: Guid(1c9a21b7a3aa342409510eefc8b016a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring4.png using Guid(1c9a21b7a3aa342409510eefc8b016a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42322359c8eff5e9f04b240930688997') in 0.011251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_4.png
-  artifactKey: Guid(1c09b395418ef0d4ba08df9738f363ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_4.png using Guid(1c09b395418ef0d4ba08df9738f363ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8f743fcc3a64a2874df7ae74ffe178') in 0.013185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_7.png
-  artifactKey: Guid(3efdeece3931553419d46aa77e3a12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_7.png using Guid(3efdeece3931553419d46aa77e3a12a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5df4f5a3a161562772b7de253a396de') in 0.011539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_3.png
-  artifactKey: Guid(cf5529209c8cd9246801eb0744e8071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_3.png using Guid(cf5529209c8cd9246801eb0744e8071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89defa5121bf6a34ae6828b33bec423d') in 0.014960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Sword_slash/_word_slash.gif
-  artifactKey: Guid(d0ed5876e91768b4186d5b2ec9f9d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Sword_slash/_word_slash.gif using Guid(d0ed5876e91768b4186d5b2ec9f9d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dace53153beedf7ae45493ac77a1c94') in 0.014126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_3.png
-  artifactKey: Guid(d3d96632be8687b40af4aeca8ee2bbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_3.png using Guid(d3d96632be8687b40af4aeca8ee2bbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8236d18fd0688fee8e76fc772911643a') in 0.013084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/_reenSkull.png
-  artifactKey: Guid(e0e871edd16582f43b77780b6a3e5449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/_reenSkull.png using Guid(e0e871edd16582f43b77780b6a3e5449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9bd29c934b3fd64c88fd44c8b5b1f8') in 0.011261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_4.png
-  artifactKey: Guid(33a72dac32216104e9cc52f295d368d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_4.png using Guid(33a72dac32216104e9cc52f295d368d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab8a0d413c91fb33c62020beb81c9b1') in 0.012570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_5.png
-  artifactKey: Guid(5a8f80cc63e3925418e97855dec77059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_5.png using Guid(5a8f80cc63e3925418e97855dec77059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33a9749a9d4bf461f6f88a0ae72b604') in 0.011485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_6.png
-  artifactKey: Guid(8e0baada951d14148abbabf22236e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_6.png using Guid(8e0baada951d14148abbabf22236e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810cc806d2c3adb9a1bf59f3a7263e40') in 0.012326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring5.png
-  artifactKey: Guid(ab1b3ada3803fbb49804e73349af4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring5.png using Guid(ab1b3ada3803fbb49804e73349af4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461b5b0771218e26543c536ce0d94324') in 0.011604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_8.png
-  artifactKey: Guid(6712cf0f3f4b9e84aa2e0baeb66ef57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_8.png using Guid(6712cf0f3f4b9e84aa2e0baeb66ef57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb239c763f19ff0707ee390671c529d') in 0.010897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/_xplosion_8.png
-  artifactKey: Guid(eae87758bbef26a4289572b2661bb819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/_xplosion_8.png using Guid(eae87758bbef26a4289572b2661bb819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9116957210b5e98924074c440a6133fc') in 0.010047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_5.png
-  artifactKey: Guid(8b3d356fe0e532d428e3d53faa8740aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_5.png using Guid(8b3d356fe0e532d428e3d53faa8740aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3306f19d1393c1e0b09f3a15a062f35a') in 0.011149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring6.png
-  artifactKey: Guid(b356be5a3057b454d8f626b86e188137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring6.png using Guid(b356be5a3057b454d8f626b86e188137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abcd69da338278fe7eea0150fb59623') in 0.012459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring7.png
-  artifactKey: Guid(a3f5b79935c19b24e99de05b9b61f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_nova/_reen_Ring7.png using Guid(a3f5b79935c19b24e99de05b9b61f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492171aebcbb62871b155534c4feb77e') in 0.011688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_1.png
-  artifactKey: Guid(16edb5a89ad8cb14c8d872e84b0973d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_1.png using Guid(16edb5a89ad8cb14c8d872e84b0973d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1944dcf8f01941ffb474d884cc5bb8d') in 0.013626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_7.png
-  artifactKey: Guid(0619f5ffea30a3840ab09102f47dfa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_7.png using Guid(0619f5ffea30a3840ab09102f47dfa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a643a008c2e1d0c8bc513924f81731') in 0.011453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_8.png
-  artifactKey: Guid(915a7d56a3da2ff47a57593147a84104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_8.png using Guid(915a7d56a3da2ff47a57593147a84104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d94729fa8fda843b9833434a2b67968') in 0.011512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/_xplosion_7.png
-  artifactKey: Guid(df7482277e81992418b5c1b6da124374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/_xplosion_7.png using Guid(df7482277e81992418b5c1b6da124374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07438e9e19d71f262be75a41aaa6319') in 0.010649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_6.png
-  artifactKey: Guid(be87e5aeb898411438051b20614468ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_6.png using Guid(be87e5aeb898411438051b20614468ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b853c15f8fb71c6a52821d267bf65565') in 0.009961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_2.png
-  artifactKey: Guid(a2533fb1bf8d84d4cb0fdd683afb430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_2.png using Guid(a2533fb1bf8d84d4cb0fdd683afb430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f8af146b641475c359072479a34a5b') in 0.010880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043738 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/_xplosion_9.png
-  artifactKey: Guid(3f4c072406876424d85bbbeac2d74eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/_xplosion_9.png using Guid(3f4c072406876424d85bbbeac2d74eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be5f9373456045cd970ee4b8bfd80f9') in 0.012200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion6.png
-  artifactKey: Guid(49daae66299175d479cce8753e300d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion6.png using Guid(49daae66299175d479cce8753e300d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0235b9af3adfb60b53c4d20f250a278b') in 0.011971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_3.png
-  artifactKey: Guid(fd069b4b844c0e845a53313735bd7f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_3.png using Guid(fd069b4b844c0e845a53313735bd7f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3239866031c081486fd388ca965b02f7') in 0.012347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/_xplosion_9.png
-  artifactKey: Guid(2af529a2e0b7e7d41bb828d021e85ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/_xplosion_9.png using Guid(2af529a2e0b7e7d41bb828d021e85ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1548906773ac2f4c8b080504b2cf5ec') in 0.012517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_9.png
-  artifactKey: Guid(e16db0eabcbd674478a70b63e13c9b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/_xplosion_9.png using Guid(e16db0eabcbd674478a70b63e13c9b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e8c2bec8fb2e8c06ea431b94797674') in 0.012056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison1.png
-  artifactKey: Guid(c9d8ffadf5630ec49829118cf8896936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison1.png using Guid(c9d8ffadf5630ec49829118cf8896936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4920a7b5480baead7e92e1125e232c5') in 0.011708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison5.png
-  artifactKey: Guid(8cc1bed98d9894043af70b73ba10dd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison5.png using Guid(8cc1bed98d9894043af70b73ba10dd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4128b95108422b89c97f1afbcad8f1ca') in 0.010252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion8.png
-  artifactKey: Guid(c4db2277e9d25ad4b9853302b29ec1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion8.png using Guid(c4db2277e9d25ad4b9853302b29ec1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b4764e8781cefdcc0da0c32118226e') in 0.011471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison5.png
-  artifactKey: Guid(41bddde1046d52540ba895f792f99d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison5.png using Guid(41bddde1046d52540ba895f792f99d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf937626226297258a635bd3966444f6') in 0.010885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion4.png
-  artifactKey: Guid(f468f59e4bdd1eb4385a4e8b8177dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion4.png using Guid(f468f59e4bdd1eb4385a4e8b8177dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079342823b44b2923703e7f2100d79b') in 0.014821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_7.png
-  artifactKey: Guid(78e5d6a7c5c950a4aae9a4e6682ef8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_7.png using Guid(78e5d6a7c5c950a4aae9a4e6682ef8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8c7ad6bdfd17faf11af173bb11740a') in 0.011991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion1.png
-  artifactKey: Guid(64c74994d3d16924f9ae8efe9921b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion1.png using Guid(64c74994d3d16924f9ae8efe9921b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797edeeac34350ef8d3689bc1c7c31f0') in 0.013589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion5.png
-  artifactKey: Guid(d85b8720f91e4c9478cc31733c794bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion5.png using Guid(d85b8720f91e4c9478cc31733c794bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0924b17a62e96c958f19d587e9b8d25') in 0.011831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_2.png
-  artifactKey: Guid(2e8430420589cd840a734ed517a596b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_2.png using Guid(2e8430420589cd840a734ed517a596b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49649a58d4f3a8de8ece5badc8d2970') in 0.014035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion9.png
-  artifactKey: Guid(669f161c782e60949b46b8811b550519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion9.png using Guid(669f161c782e60949b46b8811b550519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99861513e8bcd258dc5445a31cd3ac') in 0.011017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison1.png
-  artifactKey: Guid(3e4eb4b970dd54b4aa8dc50b6409b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison1.png using Guid(3e4eb4b970dd54b4aa8dc50b6409b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5001e4e0e14860b23cd9375185d1ced5') in 0.010732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_1.png
-  artifactKey: Guid(6adaf48a09ed6054e827cd9ebc5ad434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_1.png using Guid(6adaf48a09ed6054e827cd9ebc5ad434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b3f188c964c953c6ce5656297934c6') in 0.009736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_9.png
-  artifactKey: Guid(89972c76c2286c04591f51dad18e0687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/_xplosion_9.png using Guid(89972c76c2286c04591f51dad18e0687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c706d80edadb369ed07702c4fc14163c') in 0.011341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion2.png
-  artifactKey: Guid(4450e97d76da3bb4bb3267339062800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion2.png using Guid(4450e97d76da3bb4bb3267339062800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4169f1461388ef286ab4edf6d96bdca5') in 0.011436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison2.png
-  artifactKey: Guid(310d15441cde9c04b902228ea5994cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison2.png using Guid(310d15441cde9c04b902228ea5994cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fce370ba64894d1669600db319c7149') in 0.012341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_6.png
-  artifactKey: Guid(1cba289e517e0224aa138c15c21044c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_6.png using Guid(1cba289e517e0224aa138c15c21044c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10154f690d1de8829d62deba9f41db70') in 0.012199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion7.png
-  artifactKey: Guid(a2a0c95e2759e264bae04854c5382408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion7.png using Guid(a2a0c95e2759e264bae04854c5382408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561f1a05c0316f2388fbf3a232b35009') in 0.010649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_4.png
-  artifactKey: Guid(fb66eb272f01a7547a46e114e5bc01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_4.png using Guid(fb66eb272f01a7547a46e114e5bc01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4832472ecb94dee14def1aace49a9e34') in 0.011821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_8.png
-  artifactKey: Guid(5463a907172472b44b024d2c36c1201d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_8.png using Guid(5463a907172472b44b024d2c36c1201d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a47150e9accc323868be231051be4c7') in 0.010728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion3.png
-  artifactKey: Guid(bac81fb68de92b64b990f8f8ae56aaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Dust_Smoke/Dust_Explosion/Dust_explosion3.png using Guid(bac81fb68de92b64b990f8f8ae56aaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd05f8c81b6680cecf2410fd2d8cdee4') in 0.010401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_9.png
-  artifactKey: Guid(55819d597292c734eadb19673de78324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_9.png using Guid(55819d597292c734eadb19673de78324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1c4733c8a6f9d18dd57f76d38bd769') in 0.009919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison2.png
-  artifactKey: Guid(5143eb16b51f6d5438d10897a719377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison2.png using Guid(5143eb16b51f6d5438d10897a719377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65f04e438ba4673632d68698f6fdeed') in 0.010710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison4.png
-  artifactKey: Guid(4eaf10e32a4da824185417c52f885a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison4.png using Guid(4eaf10e32a4da824185417c52f885a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa95aecd32399963b6b5c040a6fb235') in 0.012578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison3.png
-  artifactKey: Guid(551bc10e5ff46ad4997b065c69b67d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison3.png using Guid(551bc10e5ff46ad4997b065c69b67d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821bc621a95f795d57f30d53e7f46197') in 0.011259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison3.png
-  artifactKey: Guid(84dc1c3db69c2f4429fd38966bf4b037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison3.png using Guid(84dc1c3db69c2f4429fd38966bf4b037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4247f33b8678cdbd38106dbb0def27') in 0.011925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison4.png
-  artifactKey: Guid(c25531d6c31e961469591bbc415ee47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison4.png using Guid(c25531d6c31e961469591bbc415ee47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4955886541d6efa81eb35ada3521c873') in 0.012140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_5.png
-  artifactKey: Guid(122252faf5cc5d84282c80aad09ff0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_4/Explosion_4_5.png using Guid(122252faf5cc5d84282c80aad09ff0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfb5248dc4b727c2ec95a27d996efed') in 0.013041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.031924 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison6.png
-  artifactKey: Guid(1eaa45893498a7a419e38923fe540138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison6.png using Guid(1eaa45893498a7a419e38923fe540138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc7cbf6ebdb020efa9764f232bddace') in 0.010666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison9.png
-  artifactKey: Guid(1e95209b22ded1649844138b69ce1ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison9.png using Guid(1e95209b22ded1649844138b69ce1ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d31a6a810b8e9a38612c2fd13d7ad4') in 0.010322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000917 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison9.png
-  artifactKey: Guid(485549ea2b32d3442922b833d1580be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison9.png using Guid(485549ea2b32d3442922b833d1580be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6009d1b4d54f51052640ae3fbc6edf') in 0.010169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison7.png
-  artifactKey: Guid(7af81cee412d64647916a5bdd25504ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison7.png using Guid(7af81cee412d64647916a5bdd25504ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e964410f0e6686a687cc0496a02bc958') in 0.011664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast10.png
-  artifactKey: Guid(4ac0f579f766bfd46a3c2d3af131167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast10.png using Guid(4ac0f579f766bfd46a3c2d3af131167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90b42f10932c278a37ddc2af631863c') in 0.012450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast14.png
-  artifactKey: Guid(339772eafbb9af54292e9c9fb201b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast14.png using Guid(339772eafbb9af54292e9c9fb201b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59263385caf39855348e85064ab44c71') in 0.011389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast12.png
-  artifactKey: Guid(3ee82da80756b1648a0f92e12ae924c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast12.png using Guid(3ee82da80756b1648a0f92e12ae924c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e5d6b1e4e31254bb2433bb6f60fdf2') in 0.011853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_15.png
-  artifactKey: Guid(858f6fb8ccb702f4da2a15a50c0104d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_15.png using Guid(858f6fb8ccb702f4da2a15a50c0104d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eae5b39720b7d02c9d93d0aacfff743') in 0.011824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_10.png
-  artifactKey: Guid(cb2fb3c0293b87e42bf5ea600ccc5fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_10.png using Guid(cb2fb3c0293b87e42bf5ea600ccc5fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bbc443863e7731322496ccd58ea21c') in 0.011422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_11.png
-  artifactKey: Guid(8b8fafe4597d7ea4b8f902bf85c0b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_11.png using Guid(8b8fafe4597d7ea4b8f902bf85c0b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b4ad607cc6e2cb44466a287c879121') in 0.010621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison7.png
-  artifactKey: Guid(38bcac27efbb30645b69795e2d43e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison7.png using Guid(38bcac27efbb30645b69795e2d43e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796b848ed0aef7b563aef7a4cfbd8a74') in 0.010617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001043 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/explosion_10.png
-  artifactKey: Guid(7d2af6f88e534aa468cf9a356025068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_2/explosion_10.png using Guid(7d2af6f88e534aa468cf9a356025068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce5e911660dfe51dc6eb1364f0153ec') in 0.011310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast11.png
-  artifactKey: Guid(25bf5ce14efdb2c4e881cbd9f3312a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast11.png using Guid(25bf5ce14efdb2c4e881cbd9f3312a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a04d578a318b957b6c2ea83f866a5ea') in 0.009908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_11.png
-  artifactKey: Guid(98409775d4b190b46a44fe682e99d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_11.png using Guid(98409775d4b190b46a44fe682e99d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f65d0f7b8848dd32c7ddd19f6427b93') in 0.011971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison8.png
-  artifactKey: Guid(fc159af4decbf4a43a9d0bc022bb23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Big_explosion/Explosion_5_poison8.png using Guid(fc159af4decbf4a43a9d0bc022bb23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502d814788d9c58a5f8739a8199d3208') in 0.012540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_13.png
-  artifactKey: Guid(daab1a0247ebbd945833ac756c2c9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_13.png using Guid(daab1a0247ebbd945833ac756c2c9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3050e35803b9e7c2e9fc590e6f23dbb5') in 0.014163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast13.png
-  artifactKey: Guid(42f6c14307a2c0b43a9d955ff31d0395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/FlameThrower/FlameBlast/Fire_Blast13.png using Guid(42f6c14307a2c0b43a9d955ff31d0395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc6b8dadbbdc7827dc6f8c79f53dc81') in 0.012074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_16.png
-  artifactKey: Guid(e5def9f0af7be0e43a6b954773f3fa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_16.png using Guid(e5def9f0af7be0e43a6b954773f3fa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d795bec78a3763730f758155c64248') in 0.012958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_12.png
-  artifactKey: Guid(3cee371174357304fb6c81583891c3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_12.png using Guid(3cee371174357304fb6c81583891c3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3dcfd90fcd1a24cbf2328458b26b09') in 0.011090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_17.png
-  artifactKey: Guid(6daa34485c088bc469379a7dfa646443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_17.png using Guid(6daa34485c088bc469379a7dfa646443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78683b989b0926418aab7d7aeeea6727') in 0.011395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_16.png
-  artifactKey: Guid(8562458fc96b99e438a16605315f08e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_16.png using Guid(8562458fc96b99e438a16605315f08e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286509f82bda659909d081d153fc43b0') in 0.012683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_12.png
-  artifactKey: Guid(51a0ca924e062454b90a81e762388dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_12.png using Guid(51a0ca924e062454b90a81e762388dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fe40b1805a1d4d3f6c0c7f112455a5') in 0.011157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/Explosion_10.png
-  artifactKey: Guid(3df717a946552b64896174b8ba58226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_3/Explosion_10.png using Guid(3df717a946552b64896174b8ba58226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121012ea05b0787bcd8a1d3e2da9e723') in 0.010399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire2.png
-  artifactKey: Guid(2702430a5a23c9e4197448da50730c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire2.png using Guid(2702430a5a23c9e4197448da50730c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da47c4720f30895bd4ade2da94aeefab') in 0.011017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire1.png
-  artifactKey: Guid(dee33126b3d71844091b0a96ea80d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire1.png using Guid(dee33126b3d71844091b0a96ea80d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95d0ba0432082aab1ecf16b6275cc1b') in 0.013215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison8.png
-  artifactKey: Guid(e809945171b29074c96a0226c5a27383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison8.png using Guid(e809945171b29074c96a0226c5a27383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6727c4385a2794523488788c3ab53237') in 0.011725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Green_missile/Projectile_Green_2.png
-  artifactKey: Guid(f5ef63d41cf6a3441977bd1669eea2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Green_missile/Projectile_Green_2.png using Guid(f5ef63d41cf6a3441977bd1669eea2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3337aaad18d188134a1aa052caae9638') in 0.013339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Green_missile_2/Projectile_Green_3.png
-  artifactKey: Guid(842f0c9c21719694897cd0238b517985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Green_missile_2/Projectile_Green_3.png using Guid(842f0c9c21719694897cd0238b517985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5d778a5d388eae2c633512ed3edeeb') in 0.011360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle5.png
-  artifactKey: Guid(310c3b5e7105994429142d9bc6139624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle5.png using Guid(310c3b5e7105994429142d9bc6139624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb0e04998548b789491ab453d0a6abc') in 0.013052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Green_missile_2/Projectile_Green_2.png
-  artifactKey: Guid(e9d16dcf236e51441a57f111ac4640c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Green_missile_2/Projectile_Green_2.png using Guid(e9d16dcf236e51441a57f111ac4640c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb27b510795861b86452766296d0856') in 0.011672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire4.png
-  artifactKey: Guid(e4e0a13288ea05840899c025bcca3375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire4.png using Guid(e4e0a13288ea05840899c025bcca3375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eb4713378a7f880a8a3e526fc4f150') in 0.011979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue1.png
-  artifactKey: Guid(78cc587cd9ddd104c89cecf69131572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue1.png using Guid(78cc587cd9ddd104c89cecf69131572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e343dff8a2b8438164ff9bfdf37a49') in 0.011147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Green_line_missile_2/Projectile_Green2.png
-  artifactKey: Guid(287a64a96b8e29548ab7f3602c4845ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Green_line_missile_2/Projectile_Green2.png using Guid(287a64a96b8e29548ab7f3602c4845ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb2254f384101f3baa6e1eb6c9b7aaa') in 0.010871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Blue_missile/Projectile_Blue3.png
-  artifactKey: Guid(215d108fd908efb4d8260a5971b5bdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Blue_missile/Projectile_Blue3.png using Guid(215d108fd908efb4d8260a5971b5bdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10db534cf75f72e9ee0a2cff087015d2') in 0.010859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Blue_missile/Projectile_Blue1.png
-  artifactKey: Guid(9bb3c3d23fc25884aa93ddf1c2eb7992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Blue_missile/Projectile_Blue1.png using Guid(9bb3c3d23fc25884aa93ddf1c2eb7992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d6465f423fe0f4e4903444366b33f3') in 0.010563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue3.png
-  artifactKey: Guid(376c869452428d546afd2062242741bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue3.png using Guid(376c869452428d546afd2062242741bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd747a6495a1ddcc7b48a8356de10236e') in 0.013917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse4.png
-  artifactKey: Guid(36def5a0249d3f7409a83a2b01724f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse4.png using Guid(36def5a0249d3f7409a83a2b01724f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae705d6d3413f12d9bb8bb1dc926b5ba') in 0.010764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse1.png
-  artifactKey: Guid(4ae34f8dbb09e6141ad69c9d45809c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse1.png using Guid(4ae34f8dbb09e6141ad69c9d45809c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ac81f752e2728abb6df082e637b8b4') in 0.013734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Blue_missile/Projectile_Blue2.png
-  artifactKey: Guid(baca2bd77874bf04aa2b47b2de71de41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Blue_missile/Projectile_Blue2.png using Guid(baca2bd77874bf04aa2b47b2de71de41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bdafd3abd34b369f03c7cc303549a5') in 0.014945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire3.png
-  artifactKey: Guid(aa6bdfacff634af4da56e82e33f2a550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Green_Skull/GreenSkull_fire3.png using Guid(aa6bdfacff634af4da56e82e33f2a550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7abfccd7ca8a448333be745000d356d') in 0.012335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle6.png
-  artifactKey: Guid(e1c4252082b51ce46b13bb246d6d4750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle6.png using Guid(e1c4252082b51ce46b13bb246d6d4750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb38d84cd4bfd26772b24cb43cdd4c0') in 0.012406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Green_line_missile_2/Projectile_Green3.png
-  artifactKey: Guid(2825ff1a5fb1a2a42af9dd435cf5d7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Green_line_missile_2/Projectile_Green3.png using Guid(2825ff1a5fb1a2a42af9dd435cf5d7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d605ce609c08f96e2ff3c05abcaca71') in 0.015325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Green_missile/Projectile_Green_1.png
-  artifactKey: Guid(dd0cc9b2de8cc834e8039110632bd01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Green_missile/Projectile_Green_1.png using Guid(dd0cc9b2de8cc834e8039110632bd01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dec7093b8f80b90466694f33b773cd4') in 0.010962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_10.png
-  artifactKey: Guid(df055e69b6702de4e86ebcfdf2887803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_10.png using Guid(df055e69b6702de4e86ebcfdf2887803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bf3e6976833b65add3e71aba04012a') in 0.011592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_13.png
-  artifactKey: Guid(554d9f35dfdd3204baf476a4388afba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_13.png using Guid(554d9f35dfdd3204baf476a4388afba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb0b535c7b03d907442cbd81c6254d1') in 0.012308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_14.png
-  artifactKey: Guid(3c5a2b3eba6edc14580cb562f39067f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_7/Explosion_14.png using Guid(3c5a2b3eba6edc14580cb562f39067f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d449d2b1e3338ea4c3c3ab90ffd4a3f') in 0.013029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle7.png
-  artifactKey: Guid(b748620899d7e684b869d3b021425a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle7.png using Guid(b748620899d7e684b869d3b021425a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383478be4a953459032631545e256b38') in 0.012051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle4.png
-  artifactKey: Guid(d103503230838924590faf6165624b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile/Projectile_Purple_circle4.png using Guid(d103503230838924590faf6165624b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ca77ddbee4a7d078ea9641ddc6532e') in 0.014038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse2.png
-  artifactKey: Guid(fbec6c83b9786514b88ca7a82eccaa95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse2.png using Guid(fbec6c83b9786514b88ca7a82eccaa95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b990c70cb5fae83a779dae7f707906') in 0.012942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue2.png
-  artifactKey: Guid(c002186003f1e2649b064f2fa7b99b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue2.png using Guid(c002186003f1e2649b064f2fa7b99b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f564c4fc524436b6459b1e444b27c56') in 0.012865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse3.png
-  artifactKey: Guid(0f0863249951aaa4a836a41e81b245b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Purple_missile_2/Projectile_purple_ellipse3.png using Guid(0f0863249951aaa4a836a41e81b245b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba2b06a6b1f73438a1462e737c5910a') in 0.011828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion5.png
-  artifactKey: Guid(7ccddb91dc19a9e449a4e1957988317f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion5.png using Guid(7ccddb91dc19a9e449a4e1957988317f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ccfdc4b00dd10f6a1a0e27ca8f2835') in 0.013997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion9.png
-  artifactKey: Guid(f42b890933d8e1048842315bcfcc20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion9.png using Guid(f42b890933d8e1048842315bcfcc20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a90d0b4087e6476440ea69334258e4') in 0.012124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion3.png
-  artifactKey: Guid(c13c575bdadca064eb101794a063a370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion3.png using Guid(c13c575bdadca064eb101794a063a370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77751a386d5efe63af3835e54601078') in 0.010299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion8.png
-  artifactKey: Guid(584a72d3c775d684fa0353f9b290d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion8.png using Guid(584a72d3c775d684fa0353f9b290d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a66b63bbc946b573a7e6fd6695dd230') in 0.011437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion2.png
-  artifactKey: Guid(9405bd1ecc4cb6e48aeed0db621421d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion2.png using Guid(9405bd1ecc4cb6e48aeed0db621421d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd40ac805d40d5365f8164205e5ed04') in 0.010786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion6.png
-  artifactKey: Guid(d2bc7113e0588d24089c415b9b8b8172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion6.png using Guid(d2bc7113e0588d24089c415b9b8b8172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770992b1e94762442fa193b49a92294b') in 0.011435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion1.png
-  artifactKey: Guid(6b40ce19439706a4b81560dd8f6a2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion1.png using Guid(6b40ce19439706a4b81560dd8f6a2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efd95ceb2a1da33f2818bdb2a0f1e82') in 0.012483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new5.png
-  artifactKey: Guid(2ae9976224620c64c831990fd1e66438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new5.png using Guid(2ae9976224620c64c831990fd1e66438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4623d77e984be1b32cba6de8c65f9a3a') in 0.012234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new4.png
-  artifactKey: Guid(e3d07c58df292e941aebff88468d1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new4.png using Guid(e3d07c58df292e941aebff88468d1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd90684ce918532c18ee91e26d82f89') in 0.011894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new8.png
-  artifactKey: Guid(238e282429f950c44af31bc86dded877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new8.png using Guid(238e282429f950c44af31bc86dded877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4916d4cfc79fd26169c2d7de1f64873') in 0.012144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new3.png
-  artifactKey: Guid(63b38d5b5ad7ef54d935d357408b3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new3.png using Guid(63b38d5b5ad7ef54d935d357408b3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5120f26f193b35e33259aa10ac8a8207') in 0.011388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new9.png
-  artifactKey: Guid(3e7121df82610d442ac9cd3806f16c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new9.png using Guid(3e7121df82610d442ac9cd3806f16c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a547fb8137fecfd8cb3bd41f8fc5d4') in 0.011351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new10.png
-  artifactKey: Guid(bd4c2e4380e6a4e43939240e3cc0efed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new10.png using Guid(bd4c2e4380e6a4e43939240e3cc0efed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a668dcfbb1d1295b683ab823c419626') in 0.012588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new7.png
-  artifactKey: Guid(41a3bff340823e9428b63a58a07c13ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new7.png using Guid(41a3bff340823e9428b63a58a07c13ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73af9848ab1362377220bd2d0eb7e0c2') in 0.010146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new2.png
-  artifactKey: Guid(41a7b8b2f19dd1a44b8a125d7fb022dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new2.png using Guid(41a7b8b2f19dd1a44b8a125d7fb022dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e8cbfd4028bae23e14c08df4412ff6') in 0.010837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new11.png
-  artifactKey: Guid(7a43a99a90fa5d44680e361a7c7edbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new11.png using Guid(7a43a99a90fa5d44680e361a7c7edbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c1a6eda022a0d2d9defb4a191dc576') in 0.010724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion7.png
-  artifactKey: Guid(42b9bf22907ec214d9a199a1f955f940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion7.png using Guid(42b9bf22907ec214d9a199a1f955f940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa77ee072fdca0c4e5c01e7cfb4295') in 0.013015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion10.png
-  artifactKey: Guid(deb656a5c805b05458e1f54a05623f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion10.png using Guid(deb656a5c805b05458e1f54a05623f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbb6fb1b507a7498cee339d1634f2b6') in 0.010936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new6.png
-  artifactKey: Guid(56be65a17cc7f924496f01967bc5f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new6.png using Guid(56be65a17cc7f924496f01967bc5f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986d3e6f3da82072db454002fdeb1239') in 0.011952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new1.png
-  artifactKey: Guid(95774cdf03b55764ea363525bdf7ac24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowing_new1.png using Guid(95774cdf03b55764ea363525bdf7ac24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81b68461d0a5f49d6b555ecdf95d400') in 0.011269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif1.png
-  artifactKey: Guid(8a962426ae338f542ae3314367425e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif1.png using Guid(8a962426ae338f542ae3314367425e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58f3dc5748d52844edee16328e44e8') in 0.011685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_14.png
-  artifactKey: Guid(4eb2e709c8316184fb06fb5881d7d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_14.png using Guid(4eb2e709c8316184fb06fb5881d7d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469c8e259579bd6010401c1fe0569135') in 0.010888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_15.png
-  artifactKey: Guid(b2b2382d04155e14994f8b9d8b1f3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_9/Explosion_15.png using Guid(b2b2382d04155e14994f8b9d8b1f3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a9dcfc39617a04f1468e2cef06f0cb') in 0.009893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion4.png
-  artifactKey: Guid(cec810ff1b79df846828b662585310a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Explosions/Explosion_10/PurpleDark_explosion4.png using Guid(cec810ff1b79df846828b662585310a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb442c9b7a42aa614bf8fa2eee6151d') in 0.011366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue4.png
-  artifactKey: Guid(3cf2f2a608301994aa663c4d7725256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Missiles/Shuriken_blue/Projectile_shuriken_blue4.png using Guid(3cf2f2a608301994aa663c4d7725256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c542a40ef67b4ce63a877a60cc091a72') in 0.011071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif2.png
-  artifactKey: Guid(377e7c5fb3ad228449b6b6b2f5590b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif2.png using Guid(377e7c5fb3ad228449b6b6b2f5590b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecaf4e9202e6e17d9d99181b1dd38f03') in 0.012735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen3.png
-  artifactKey: Guid(56b20c1fd7a839547808209057a11451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen3.png using Guid(56b20c1fd7a839547808209057a11451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cf776b79d8f289e97782b11f4e23fb') in 0.011439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif8.png
-  artifactKey: Guid(530db730d1b88f646beead37f717875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif8.png using Guid(530db730d1b88f646beead37f717875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62f1b9dd21ae61197ea1b8eec547b35') in 0.012921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running7.png
-  artifactKey: Guid(4f41117b21de0d14888c7de5c03fa8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running7.png using Guid(4f41117b21de0d14888c7de5c03fa8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534be6b24f3ce72308c982c356343521') in 0.013761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running6.png
-  artifactKey: Guid(eb2fef933e5ab4240a485c980b257a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running6.png using Guid(eb2fef933e5ab4240a485c980b257a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c01cfb3887ce6c391128f6e7da5c10') in 0.012437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running5.png
-  artifactKey: Guid(720ee757c6d4ddd4b9ffd87b548c2d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running5.png using Guid(720ee757c6d4ddd4b9ffd87b548c2d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a4cd8c42cb58aecaa459e06095822d') in 0.011921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running3.png
-  artifactKey: Guid(ec5b94d485d9b324f8c1e46e6df2eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running3.png using Guid(ec5b94d485d9b324f8c1e46e6df2eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9c74cf0a71f13402484c42b9c434cc') in 0.012159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running4.png
-  artifactKey: Guid(81be2e1c233f14d4fa54b97719dafa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running4.png using Guid(81be2e1c233f14d4fa54b97719dafa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dd544865b77aff006379e2b34f4b97') in 0.012334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif7.png
-  artifactKey: Guid(ed4a6e5ba7aed25458c0c9584ab04913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif7.png using Guid(ed4a6e5ba7aed25458c0c9584ab04913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162dccf78fdd1902853f9e9d3bc522b3') in 0.010381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif5.png
-  artifactKey: Guid(5e971bf7b8a39674b88724b2cab31889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif5.png using Guid(5e971bf7b8a39674b88724b2cab31889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65dbc6b6849c26d65a14f95eb547832') in 0.011428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Sword_slash/Sword_slash1.png
-  artifactKey: Guid(7a8f29c638959944ea469ffab25fe885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Sword_slash/Sword_slash1.png using Guid(7a8f29c638959944ea469ffab25fe885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daed9d6d70f87df46e7f8c67157150b8') in 0.011119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running2.png
-  artifactKey: Guid(dd7026d8d12c9e04bbd37c74cd546877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/ETC/TimeCheck/Time_Running2.png using Guid(dd7026d8d12c9e04bbd37c74cd546877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2290eb8ff6fbeb32f704686fa40eba24') in 0.012976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif3.png
-  artifactKey: Guid(68163f11e860ad94986d6e0d3ee9215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif3.png using Guid(68163f11e860ad94986d6e0d3ee9215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4fdf3856361909cf95c297b3e0e0b2') in 0.012696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen1.png
-  artifactKey: Guid(435ae7c25e5a3df47a011a056279dc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen1.png using Guid(435ae7c25e5a3df47a011a056279dc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b120d0a08af4a11dfff6788678bcfe5') in 0.012851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen2.png
-  artifactKey: Guid(fb4a305a3c8d10a4bb0f9f2966afc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen2.png using Guid(fb4a305a3c8d10a4bb0f9f2966afc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333414ae34bd2b81514ecb97a997cfaf') in 0.011410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Sword_slash/Sword_slash3.png
-  artifactKey: Guid(95016fadc62694b4ab9c3cee35164ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Sword_slash/Sword_slash3.png using Guid(95016fadc62694b4ab9c3cee35164ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327440b10cbb99e4ddc5683e24f103df') in 0.012548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif6.png
-  artifactKey: Guid(8d664464ff7d27f498fb9d6d1294f900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif6.png using Guid(8d664464ff7d27f498fb9d6d1294f900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476865debdc1fa75bcb70f953bf0fe4e') in 0.011604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen6.png
-  artifactKey: Guid(5f2f788d4bb5cd44b91e601734c82177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen6.png using Guid(5f2f788d4bb5cd44b91e601734c82177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7271cef18f7dc225ab34366a2a32939') in 0.010597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Sword_slash/Sword_slash2.png
-  artifactKey: Guid(d9dd0bfcfcad8434d8d61b0afd3fcbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Sword_slash/Sword_slash2.png using Guid(d9dd0bfcfcad8434d8d61b0afd3fcbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d77ab4c55282bf8cf25f8d0ebe8385c') in 0.010276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen4.png
-  artifactKey: Guid(0159501d8efcb4b4298714ee869f45c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen4.png using Guid(0159501d8efcb4b4298714ee869f45c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e0734453525e4ce20bb00c959220ec') in 0.010420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif4.png
-  artifactKey: Guid(b2c6b78ccf0dce3488c6722529350a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_jewel/Skul_jewel_glowinggif4.png using Guid(b2c6b78ccf0dce3488c6722529350a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b004265c74d294899a4093b67b7f29d') in 0.011058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen5.png
-  artifactKey: Guid(b17ad101e062b714084dcd847ea091e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Skull/Skull_adogen/Skull_adogen5.png using Guid(b17ad101e062b714084dcd847ea091e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec00d167c68bfd29ff038888e7eec16') in 0.010294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison6.png
-  artifactKey: Guid(8814357ffc8f2774aa42e9e571b32595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Pixel_Effects_pack/Poison/Poison_explosion/Explosion_5_poison6.png using Guid(8814357ffc8f2774aa42e9e571b32595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adbd5e8ed3b0141010210527837cc3d') in 0.011388 seconds 
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(3b65f551029e1724ab102959b79fcc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(3b65f551029e1724ab102959b79fcc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d75e69c03e56ab9c40e497d95c10b80') in 0.110160 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007015 seconds.
+Registered in 0.007251 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
+- Completed reload, in  1.219 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1155ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1552 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2047.
-Total: 2.526400 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.044600 ms MarkObjects: 2.281100 ms  DeleteObjects: 0.055800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 122.986922 seconds.
-  path: Assets/Resources/Prefabs/Projectile_shuriken_blue1.prefab
-  artifactKey: Guid(6e975b2e6c904904b9f053a1edc993af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Projectile_shuriken_blue1.prefab using Guid(6e975b2e6c904904b9f053a1edc993af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a8812cff99532d09abf52d4f415962') in 0.069475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.937510 seconds.
-  path: Assets/Resources/Prefabs/shuriken.prefab
-  artifactKey: Guid(6e975b2e6c904904b9f053a1edc993af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/shuriken.prefab using Guid(6e975b2e6c904904b9f053a1edc993af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc10dd7c5c6e471a1b91112a9a29ee7') in 0.013618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 743.711783 seconds.
-  path: Assets/Scripts/ProjectileControl.cs
-  artifactKey: Guid(659dd62b78c91124cb6d1a4c55f3393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileControl.cs using Guid(659dd62b78c91124cb6d1a4c55f3393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac1f7cf4963042032c89a54f520b5e') in 0.022471 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.223 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1226ms)
-		BeginReloadAssembly (262ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (874ms)
-			LoadAssemblies (169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (342ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (192ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (199ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (23ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1553 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.6 MB.
-System memory in use after: 77.7 MB.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2056.
-Total: 2.960200 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.657300 ms  DeleteObjects: 0.105500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 2.738200 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.046400 ms MarkObjects: 2.488400 ms  DeleteObjects: 0.059400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1986,57 +195,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 15.509226 seconds.
-  path: Assets/Scripts/ProjectileShooter.cs
-  artifactKey: Guid(a4471fd084476e74daf2bc9acd8285df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileShooter.cs using Guid(a4471fd084476e74daf2bc9acd8285df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d184c54c358f93a0b9e07f877d3925') in 0.005226 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006642 seconds.
+Registered in 0.007404 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
+- Completed reload, in  1.197 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1221ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (155ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (331ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (25ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1554 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.6 MB.
-System memory in use after: 77.7 MB.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2060.
-Total: 3.026900 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.783900 ms  DeleteObjects: 0.062900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 2.655900 ms (FindLiveObjects: 0.110500 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.458700 ms  DeleteObjects: 0.045700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2049,44 +252,38 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6753.650655 seconds.
-  path: Assets/Scripts/ProjectileControl.cs
-  artifactKey: Guid(659dd62b78c91124cb6d1a4c55f3393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileControl.cs using Guid(659dd62b78c91124cb6d1a4c55f3393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef889d243b4f40ba77ec1a8f6349fbc') in 0.071053 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007143 seconds.
+Registered in 0.007036 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
+- Completed reload, in  1.173 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1313ms)
-		BeginReloadAssembly (311ms)
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (907ms)
-			LoadAssemblies (178ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (923ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (353ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -2094,12 +291,12 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1554 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.6 MB.
-System memory in use after: 77.7 MB.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2063.
-Total: 8.920300 ms (FindLiveObjects: 2.959100 ms CreateObjectMapping: 0.918700 ms MarkObjects: 4.895300 ms  DeleteObjects: 0.145500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 2.817300 ms (FindLiveObjects: 0.133100 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.578100 ms  DeleteObjects: 0.052600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2112,57 +309,108 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2379.393900 seconds.
-  path: Assets/Scripts/ProjectileShooter.cs
-  artifactKey: Guid(a4471fd084476e74daf2bc9acd8285df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileShooter.cs using Guid(a4471fd084476e74daf2bc9acd8285df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbbc89f4403979e09825df323f90443') in 0.075385 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2008.
+Total: 3.628300 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.052500 ms MarkObjects: 3.339900 ms  DeleteObjects: 0.080200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007517 seconds.
+Registered in 0.006925 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.336 seconds
+- Completed reload, in  1.190 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1338ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (181ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (393ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (27ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (46ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1554 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.6 MB.
-System memory in use after: 77.7 MB.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2066.
-Total: 3.270700 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.969100 ms  DeleteObjects: 0.092300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 3.472700 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.046900 ms MarkObjects: 3.240900 ms  DeleteObjects: 0.053900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
