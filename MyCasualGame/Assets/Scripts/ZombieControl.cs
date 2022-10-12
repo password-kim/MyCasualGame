@@ -18,6 +18,9 @@ public class ZombieControl : MonoBehaviour
     private Vector3 backOffDir = Vector3.zero;
     private float backOffSpeed = 5.0f;
 
+    // Color Tweener
+    public SpriteColorTween colorTween = null;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +28,7 @@ public class ZombieControl : MonoBehaviour
         target = GameObject.FindWithTag("Player");
         spriteRenderer = GetComponent<SpriteRenderer>();
         myTransform = GetComponent<Transform>();
+        colorTween = GetComponent<SpriteColorTween>();
     }
 
     // Update is called once per frame
@@ -79,6 +83,8 @@ public class ZombieControl : MonoBehaviour
             dir = dir.normalized;
 
             MoveBackOff(-dir, 0.2f, 3.0f);
+
+            colorTween.SetTween(Color.red, 5.0f);
         }
     }
 
