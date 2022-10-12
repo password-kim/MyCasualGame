@@ -12,6 +12,13 @@ public class ZombieControl : MonoBehaviour
 
     private Transform myTransform;
 
+    // 뒤로 물러나는 기능. Backoff.
+    private bool isBackOff = false;
+    private float backOffTime = 0.0f;
+    private Vector3 backOffDir = Vector3.zero;
+    private float backOffSpeed = 5.0f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +32,22 @@ public class ZombieControl : MonoBehaviour
     {
         if (target == null)
             return;
+
+        if(isBackOff == true)
+        {
+            if(backOffTime > 0.0f)
+            {
+                backOffTime -= Time.deltaTime;
+                myTransform.Translate(backOffDir * Time.deltaTime * backOffSpeed);
+            }
+            else
+            {
+                isBackOff = false;
+            }
+
+            // 뒤로 밀리는 중에는 이동을 하지 않습니다. return !!
+            return;
+        }
 
         Vector3 direction = target.transform.position - myTransform.position;
         direction = direction.normalized;
@@ -51,6 +74,24 @@ public class ZombieControl : MonoBehaviour
         if (collision.gameObject.tag.Equals("Projectile"))
         {
             Debug.Log($"zombie : projectile Hit = {collision.gameObject.name}");
+
+            Vector3 dir = collision.gameObject.transform.position - myTransform.position;
+            dir = dir.normalized;
+
+            MoveBackOff(-dir, 0.2f, 3.0f);
         }
+    }
+
+    private void MoveBackOff(Vector3 dir, float time, float speed)
+    {
+        if (isBackOff)
+        {
+            return;
+        }
+
+        backOffDir = dir;
+        backOffTime = time;
+        backOffSpeed = speed;
+        isBackOff = true;
     }
 }
