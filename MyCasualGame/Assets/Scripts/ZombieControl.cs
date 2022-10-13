@@ -73,6 +73,7 @@ public class ZombieControl : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             Debug.Log($"zombie : player Hit");
+            collision.gameObject.SendMessage("OnHitDamage", 50);
         }
 
         if (collision.gameObject.tag.Equals("Projectile"))

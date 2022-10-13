@@ -12,6 +12,10 @@ public class PlayerControl : MonoBehaviour
 
     private ProjectileShooter shooter = null;
 
+    public HPBarControl hpBar = null;
+
+    public int HP = 300;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +25,8 @@ public class PlayerControl : MonoBehaviour
         // projectile shooter
         shooter = GetComponent<ProjectileShooter>();
         shooter.ShootProjectile(ProjectileShooter.ProjectileType.Bullet, 5f, 10f, false, 1.0f);
+
+        hpBar.SetMaxHp(HP);
     }
 
     // Update is called once per frame
@@ -42,5 +48,14 @@ public class PlayerControl : MonoBehaviour
         }
 
         myTransform.Translate(moveDirection * MoveSpeed * Time.deltaTime);
+    }
+
+    // 몬슽터와 충돌하면 몬스터 컴포넌트가 sendMessage로 데미지를 알려준다.
+    private void OnHitDamage(int damage)
+    {
+        HP -= damage;
+        HP = Mathf.Max(HP, 0);
+        hpBar.SetHP(HP);
+        Debug.Log($"Damage : {damage}");
     }
 }
